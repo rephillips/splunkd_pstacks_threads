@@ -1,6 +1,7 @@
-###
+
 1.) create script on indexer
 vi pstack_threads.sh
+
 
 ```
 #!/bin/bash

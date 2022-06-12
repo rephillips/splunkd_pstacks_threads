@@ -28,3 +28,7 @@ option B:
 - install script on all indexers and run the script in the background
 - create alert so we know which host to fetch pstacks off of and generate diag.
 - upload pstacks and diag to Splunk Support.
+
+
+script can be found here: 
+https://github.com/rephillips/splunkd_pstacks_threads/blob/main/pstack_threads.txt

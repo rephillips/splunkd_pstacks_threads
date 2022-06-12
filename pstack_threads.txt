@@ -2,8 +2,6 @@
 1.) create script on indexer
 vi pstack_threads.sh
 
-
-```
 #!/bin/bash
 #usage send job to background: nohup ./pstack_threads.sh &
 OUTPUT_DIR=/tmp
@@ -20,7 +18,7 @@ sleep $SAMPLE_PERIOD
 fi
 sleep $SAMPLE_PERIOD
 done
-```
+
 
 2.) give executable permissions to the file
 chmod +x pstack_threads.sh

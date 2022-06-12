@@ -1,7 +1,7 @@
 # splunkd_pstacks_threads
 
 Typically if indexers have more than 500+ active threads in use something may be wrong or there is a lock contention (ie: file descriptor leak, hung processes, etc). 
-If that happens we want to collect pstacks on a host if thread count exceeds 500 threads and trigger pstack collection once there are more than 500 active threads.
+If that happens we want to trigger  pstack collection on a host if the thread count exceeds 500. 
 
 The following search will show active threads:
 

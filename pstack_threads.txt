@@ -7,7 +7,7 @@ vi pstack_threads.sh
 OUTPUT_DIR=/tmp
 SPLUNK_HOME=/opt/splunk
 mkdir -p $OUTPUT_DIR
-SAMPLE_PERIOD=120
+SAMPLE_PERIOD=1
 while true
 do
 pid=`head -1 $SPLUNK_HOME/var/run/splunk/splunkd.pid`
